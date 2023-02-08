@@ -1,0 +1,28 @@
+{
+  "type": "library",
+  "license": "proprietary",
+  "name": "pph21/calculator",
+  "authors": [
+    {
+      "name": "Fachry Fauzan",
+      "email": "fathurrahmanf167@gmail.com",
+      "homepage": "https://github.com/fathurfachry"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true,
+    "classmap-authoritative": true,
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\Calculate\\": "App/Calculate"
+    }
+  }
+}
